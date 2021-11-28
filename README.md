@@ -20,6 +20,40 @@ it, simply add the following line to your Podfile:
 pod 'UIView-TapListnerCallback'
 ```
 
+## Usage
+```swift
+import UIView_TapListnerCallback
+```
+
+
+## Make any UIView Actionable
+```swift
+
+// A simple and easy method to add gesturerecognizer to any view (UIView,UIImageView,UILable...)  
+  
+        mLable.TapLisner{
+            print("lable clicked")
+        }
+        
+        mImageView.TapLisner{
+            print("imageView clicked")
+        }
+        
+        mView.TapLisner{
+            print("view clicked")
+        }
+        
+        mButton.TapLisner{
+            print("Button clicked")
+        }
+  
+```
+
+
+
+
+
+
 ## Author
 
 wajeehulhassan, wajeeh661@gmail.com
