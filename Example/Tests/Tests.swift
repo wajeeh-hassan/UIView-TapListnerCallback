@@ -1,5 +1,4 @@
 import XCTest
-import UIView-TapListnerCallback
 
 class Tests: XCTestCase {
     

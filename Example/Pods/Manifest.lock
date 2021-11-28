@@ -1,0 +1,16 @@
+PODS:
+  - UIView-TapListnerCallback (0.1.0)
+
+DEPENDENCIES:
+  - UIView-TapListnerCallback (from `../`)
+
+EXTERNAL SOURCES:
+  UIView-TapListnerCallback:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIView-TapListnerCallback: 5b993e3af6f0534375e0a8837da47c642f852ed3
+
+PODFILE CHECKSUM: cecaaa86051190375b88b6c106a1b5a5949fad53
+
+COCOAPODS: 1.11.2

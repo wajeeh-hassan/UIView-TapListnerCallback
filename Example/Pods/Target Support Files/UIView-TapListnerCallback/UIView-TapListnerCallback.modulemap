@@ -1,0 +1,6 @@
+framework module UIView_TapListnerCallback {
+  umbrella header "UIView-TapListnerCallback-umbrella.h"
+
+  export *
+  module * { export * }
+}

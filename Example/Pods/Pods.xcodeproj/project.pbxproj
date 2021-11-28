@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1671A49C36CE96C17D3122435465F9A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		190D0A7E1A4657DE13C05D39E7DA1F70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5B7CA0F9273FE8043F3F4F18E42D15D3 /* UIView-TapListnerCallback-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA950AF9619A3E834BC6F2E32602F7AC /* UIView-TapListnerCallback-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6169E98B04785BA7D09E27F14C040676 /* Pods-UIView-TapListnerCallback_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 096629668328FC69B48DADCE3F7963F6 /* Pods-UIView-TapListnerCallback_Example-dummy.m */; };
+		6D7E5DB8646BA155578D70B95096DDA4 /* Pods-UIView-TapListnerCallback_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA92545B832B697DEE06A7D6DB82089 /* Pods-UIView-TapListnerCallback_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DA9BCCEA788F92D5F2E9B21A3F38363 /* Pods-UIView-TapListnerCallback_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B190274D09ED7E6B9CA5B7AD84F3684 /* Pods-UIView-TapListnerCallback_Tests-dummy.m */; };
+		A1841257A558D4BBE5ACC13CBF844B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C484E647C9314814D4BEFFDDF27A9AEC /* View+Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E264B44887BC757406BEBBB7B8877EC7 /* View+Tap.swift */; };
+		D632C42B53765B5EF34D66EEDCDECC03 /* UIView-TapListnerCallback-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B6A111906BC6DD2834C11FDDB2032F /* UIView-TapListnerCallback-dummy.m */; };
+		FAB769138DD53DF6A8A95FD7C2429728 /* Pods-UIView-TapListnerCallback_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7419E195BB9B0B7EFF3D31A236BAB9F9 /* Pods-UIView-TapListnerCallback_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DBA5058D34EE130DB660D51513DC879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8814220826F04A372BF69D9A0FB13DD0;
+			remoteInfo = "UIView-TapListnerCallback";
+		};
+		DCDC5D39CFE828521E7DB754E5020086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2DAA40C85330351CEDD753D9A46E98;
+			remoteInfo = "Pods-UIView-TapListnerCallback_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0355BEAE04FC11BC222D4E59C02F76CF /* Pods-UIView-TapListnerCallback_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIView-TapListnerCallback_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		096629668328FC69B48DADCE3F7963F6 /* Pods-UIView-TapListnerCallback_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIView-TapListnerCallback_Example-dummy.m"; sourceTree = "<group>"; };
+		0C7B428C57D1F96A2828A5A4F30E6316 /* UIView-TapListnerCallback-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIView-TapListnerCallback-Info.plist"; sourceTree = "<group>"; };
+		20B795ADE8DF60944E0CB8D0AB474502 /* Pods-UIView-TapListnerCallback_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIView-TapListnerCallback_Tests.modulemap"; sourceTree = "<group>"; };
+		2DB8BA5D3488377F73DF4A937E2852FD /* Pods-UIView-TapListnerCallback_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIView-TapListnerCallback_Example.modulemap"; sourceTree = "<group>"; };
+		34F201544C34DCCCAB24FD1620809F76 /* Pods-UIView-TapListnerCallback_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIView-TapListnerCallback_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3CBEEEE3D1425A9657D1C666F7FEBED7 /* UIView-TapListnerCallback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIView-TapListnerCallback.debug.xcconfig"; sourceTree = "<group>"; };
+		458C8DAC15EB8DD9CF3FD90E7F87AE12 /* UIView-TapListnerCallback */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "UIView-TapListnerCallback"; path = UIView_TapListnerCallback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48339B7484AB28B0BA4B2953872F7BFE /* Pods-UIView-TapListnerCallback_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIView-TapListnerCallback_Tests"; path = Pods_UIView_TapListnerCallback_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4891D835DFFBFF835EE5E551D3339B32 /* UIView-TapListnerCallback.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UIView-TapListnerCallback.modulemap"; sourceTree = "<group>"; };
+		48BEF15B0D3C19992ADC04715FF4E518 /* Pods-UIView-TapListnerCallback_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIView-TapListnerCallback_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		523892B9BA4C6149FB35105EA8D44855 /* Pods-UIView-TapListnerCallback_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIView-TapListnerCallback_Tests-Info.plist"; sourceTree = "<group>"; };
+		53B4BEC11198766CC81A15DE40325A0D /* Pods-UIView-TapListnerCallback_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIView-TapListnerCallback_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5A7AE8057169BA35FA2E38EFF3F5011C /* Pods-UIView-TapListnerCallback_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIView-TapListnerCallback_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B190274D09ED7E6B9CA5B7AD84F3684 /* Pods-UIView-TapListnerCallback_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIView-TapListnerCallback_Tests-dummy.m"; sourceTree = "<group>"; };
+		63B6E76418169CCCCC6F39F0FD0DF8ED /* Pods-UIView-TapListnerCallback_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIView-TapListnerCallback_Example"; path = Pods_UIView_TapListnerCallback_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B6A111906BC6DD2834C11FDDB2032F /* UIView-TapListnerCallback-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView-TapListnerCallback-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7419E195BB9B0B7EFF3D31A236BAB9F9 /* Pods-UIView-TapListnerCallback_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIView-TapListnerCallback_Example-umbrella.h"; sourceTree = "<group>"; };
+		92DB04D9E0EF1E381F0C368965B4C1D7 /* Pods-UIView-TapListnerCallback_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIView-TapListnerCallback_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B095DB74C4E4D13FF587267BF3EAE6A2 /* UIView-TapListnerCallback.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "UIView-TapListnerCallback.podspec"; sourceTree = "<group>"; tabWidth = 2; };
+		C92A5DE7F8BDA3619B3313470F5648DC /* UIView-TapListnerCallback-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView-TapListnerCallback-prefix.pch"; sourceTree = "<group>"; };
+		CA950AF9619A3E834BC6F2E32602F7AC /* UIView-TapListnerCallback-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView-TapListnerCallback-umbrella.h"; sourceTree = "<group>"; };
+		CAA92545B832B697DEE06A7D6DB82089 /* Pods-UIView-TapListnerCallback_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIView-TapListnerCallback_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DF618244D6A12CF862F392905CE713A6 /* Pods-UIView-TapListnerCallback_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIView-TapListnerCallback_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E264B44887BC757406BEBBB7B8877EC7 /* View+Tap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+Tap.swift"; path = "UIView-TapListnerCallback/Classes/View+Tap.swift"; sourceTree = "<group>"; };
+		E2856C7A1A94AC01DCA11F33D619778B /* Pods-UIView-TapListnerCallback_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIView-TapListnerCallback_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E5DA2D1D67658EC7C5E552429375727F /* UIView-TapListnerCallback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIView-TapListnerCallback.release.xcconfig"; sourceTree = "<group>"; };
+		E9833285DF1DAC411390036378497729 /* Pods-UIView-TapListnerCallback_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIView-TapListnerCallback_Example-Info.plist"; sourceTree = "<group>"; };
+		EA2BA2FC2D31F63F80BB7D2F28FFFEBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAA7F40F629E3B30EB9F0E1EDBF642FE /* Pods-UIView-TapListnerCallback_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIView-TapListnerCallback_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEB6AF9FDFE239788EAE8F7087BCDE57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AAD362AA2C6ABFE8A4BF9C8E223994B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190D0A7E1A4657DE13C05D39E7DA1F70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545CEE33D0281CD898C2771739D5AAB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1841257A558D4BBE5ACC13CBF844B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891BF423311CAA721AA165180D5A82AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1671A49C36CE96C17D3122435465F9A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1084977279770DB4CFFF2A4711C8C2A3 /* Pods-UIView-TapListnerCallback_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				20B795ADE8DF60944E0CB8D0AB474502 /* Pods-UIView-TapListnerCallback_Tests.modulemap */,
+				5A7AE8057169BA35FA2E38EFF3F5011C /* Pods-UIView-TapListnerCallback_Tests-acknowledgements.markdown */,
+				0355BEAE04FC11BC222D4E59C02F76CF /* Pods-UIView-TapListnerCallback_Tests-acknowledgements.plist */,
+				5B190274D09ED7E6B9CA5B7AD84F3684 /* Pods-UIView-TapListnerCallback_Tests-dummy.m */,
+				523892B9BA4C6149FB35105EA8D44855 /* Pods-UIView-TapListnerCallback_Tests-Info.plist */,
+				CAA92545B832B697DEE06A7D6DB82089 /* Pods-UIView-TapListnerCallback_Tests-umbrella.h */,
+				FAA7F40F629E3B30EB9F0E1EDBF642FE /* Pods-UIView-TapListnerCallback_Tests.debug.xcconfig */,
+				E2856C7A1A94AC01DCA11F33D619778B /* Pods-UIView-TapListnerCallback_Tests.release.xcconfig */,
+			);
+			name = "Pods-UIView-TapListnerCallback_Tests";
+			path = "Target Support Files/Pods-UIView-TapListnerCallback_Tests";
+			sourceTree = "<group>";
+		};
+		1B0FC5951463F9B21898DDD5F49CE112 /* UIView-TapListnerCallback */ = {
+			isa = PBXGroup;
+			children = (
+				E264B44887BC757406BEBBB7B8877EC7 /* View+Tap.swift */,
+				25E74C193825E0632C4220E131587B95 /* Pod */,
+				99CF63AD2598517AB9E48466E9AE989A /* Support Files */,
+			);
+			name = "UIView-TapListnerCallback";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		25E74C193825E0632C4220E131587B95 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FEB6AF9FDFE239788EAE8F7087BCDE57 /* LICENSE */,
+				EA2BA2FC2D31F63F80BB7D2F28FFFEBA /* README.md */,
+				B095DB74C4E4D13FF587267BF3EAE6A2 /* UIView-TapListnerCallback.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		54D8BD103706FA283A084A46A1BA652E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B0FC5951463F9B21898DDD5F49CE112 /* UIView-TapListnerCallback */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		554CDB92ACFBC79FC89FBB2967944E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B6E76418169CCCCC6F39F0FD0DF8ED /* Pods-UIView-TapListnerCallback_Example */,
+				48339B7484AB28B0BA4B2953872F7BFE /* Pods-UIView-TapListnerCallback_Tests */,
+				458C8DAC15EB8DD9CF3FD90E7F87AE12 /* UIView-TapListnerCallback */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7064BF9FD0D94F11BE9D7E97B413F9D3 /* Pods-UIView-TapListnerCallback_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8BA5D3488377F73DF4A937E2852FD /* Pods-UIView-TapListnerCallback_Example.modulemap */,
+				48BEF15B0D3C19992ADC04715FF4E518 /* Pods-UIView-TapListnerCallback_Example-acknowledgements.markdown */,
+				92DB04D9E0EF1E381F0C368965B4C1D7 /* Pods-UIView-TapListnerCallback_Example-acknowledgements.plist */,
+				096629668328FC69B48DADCE3F7963F6 /* Pods-UIView-TapListnerCallback_Example-dummy.m */,
+				34F201544C34DCCCAB24FD1620809F76 /* Pods-UIView-TapListnerCallback_Example-frameworks.sh */,
+				E9833285DF1DAC411390036378497729 /* Pods-UIView-TapListnerCallback_Example-Info.plist */,
+				7419E195BB9B0B7EFF3D31A236BAB9F9 /* Pods-UIView-TapListnerCallback_Example-umbrella.h */,
+				DF618244D6A12CF862F392905CE713A6 /* Pods-UIView-TapListnerCallback_Example.debug.xcconfig */,
+				53B4BEC11198766CC81A15DE40325A0D /* Pods-UIView-TapListnerCallback_Example.release.xcconfig */,
+			);
+			name = "Pods-UIView-TapListnerCallback_Example";
+			path = "Target Support Files/Pods-UIView-TapListnerCallback_Example";
+			sourceTree = "<group>";
+		};
+		99CF63AD2598517AB9E48466E9AE989A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4891D835DFFBFF835EE5E551D3339B32 /* UIView-TapListnerCallback.modulemap */,
+				65B6A111906BC6DD2834C11FDDB2032F /* UIView-TapListnerCallback-dummy.m */,
+				0C7B428C57D1F96A2828A5A4F30E6316 /* UIView-TapListnerCallback-Info.plist */,
+				C92A5DE7F8BDA3619B3313470F5648DC /* UIView-TapListnerCallback-prefix.pch */,
+				CA950AF9619A3E834BC6F2E32602F7AC /* UIView-TapListnerCallback-umbrella.h */,
+				3CBEEEE3D1425A9657D1C666F7FEBED7 /* UIView-TapListnerCallback.debug.xcconfig */,
+				E5DA2D1D67658EC7C5E552429375727F /* UIView-TapListnerCallback.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIView-TapListnerCallback";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				54D8BD103706FA283A084A46A1BA652E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				554CDB92ACFBC79FC89FBB2967944E56 /* Products */,
+				E1C53B46AF291E3C942A93832DCDA95B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C53B46AF291E3C942A93832DCDA95B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7064BF9FD0D94F11BE9D7E97B413F9D3 /* Pods-UIView-TapListnerCallback_Example */,
+				1084977279770DB4CFFF2A4711C8C2A3 /* Pods-UIView-TapListnerCallback_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		941C4C914A8187FE0213241FA6BA0B36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7CA0F9273FE8043F3F4F18E42D15D3 /* UIView-TapListnerCallback-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F1CE389455F2182204EBADA176617B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB769138DD53DF6A8A95FD7C2429728 /* Pods-UIView-TapListnerCallback_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F335BFA047C4B36D6AEF0BD3331D3796 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7E5DB8646BA155578D70B95096DDA4 /* Pods-UIView-TapListnerCallback_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18FB775182C44246D352AEE26AB68848 /* Pods-UIView-TapListnerCallback_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32A97306C32033963B1CAC9B01AF624 /* Build configuration list for PBXNativeTarget "Pods-UIView-TapListnerCallback_Tests" */;
+			buildPhases = (
+				F335BFA047C4B36D6AEF0BD3331D3796 /* Headers */,
+				B712B9CFD3C68F1C806CA3EF30596288 /* Sources */,
+				545CEE33D0281CD898C2771739D5AAB2 /* Frameworks */,
+				846E3882A86F66C60F3363F80662094C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656722C2F0CD38F721C6426358B4E50C /* PBXTargetDependency */,
+			);
+			name = "Pods-UIView-TapListnerCallback_Tests";
+			productName = Pods_UIView_TapListnerCallback_Tests;
+			productReference = 48339B7484AB28B0BA4B2953872F7BFE /* Pods-UIView-TapListnerCallback_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8814220826F04A372BF69D9A0FB13DD0 /* UIView-TapListnerCallback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1F739C06E130974A5468DD757A9C00 /* Build configuration list for PBXNativeTarget "UIView-TapListnerCallback" */;
+			buildPhases = (
+				941C4C914A8187FE0213241FA6BA0B36 /* Headers */,
+				D35C5830A32B8B2CC663D2A0C8BC9C1F /* Sources */,
+				2AAD362AA2C6ABFE8A4BF9C8E223994B /* Frameworks */,
+				4838444692E2B134537E6B0C9064E200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIView-TapListnerCallback";
+			productName = UIView_TapListnerCallback;
+			productReference = 458C8DAC15EB8DD9CF3FD90E7F87AE12 /* UIView-TapListnerCallback */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC2DAA40C85330351CEDD753D9A46E98 /* Pods-UIView-TapListnerCallback_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFAD048E0F10686D1E47C412B58184C /* Build configuration list for PBXNativeTarget "Pods-UIView-TapListnerCallback_Example" */;
+			buildPhases = (
+				B0F1CE389455F2182204EBADA176617B /* Headers */,
+				1CB2C3212D774A027FE8B9CFD69DFBDE /* Sources */,
+				891BF423311CAA721AA165180D5A82AC /* Frameworks */,
+				6973759A6AC41B79A941952795D770F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1683E191FD5DFFB6EE890792FC0DA935 /* PBXTargetDependency */,
+			);
+			name = "Pods-UIView-TapListnerCallback_Example";
+			productName = Pods_UIView_TapListnerCallback_Example;
+			productReference = 63B6E76418169CCCCC6F39F0FD0DF8ED /* Pods-UIView-TapListnerCallback_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 554CDB92ACFBC79FC89FBB2967944E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2DAA40C85330351CEDD753D9A46E98 /* Pods-UIView-TapListnerCallback_Example */,
+				18FB775182C44246D352AEE26AB68848 /* Pods-UIView-TapListnerCallback_Tests */,
+				8814220826F04A372BF69D9A0FB13DD0 /* UIView-TapListnerCallback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4838444692E2B134537E6B0C9064E200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6973759A6AC41B79A941952795D770F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E3882A86F66C60F3363F80662094C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CB2C3212D774A027FE8B9CFD69DFBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6169E98B04785BA7D09E27F14C040676 /* Pods-UIView-TapListnerCallback_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B712B9CFD3C68F1C806CA3EF30596288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA9BCCEA788F92D5F2E9B21A3F38363 /* Pods-UIView-TapListnerCallback_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35C5830A32B8B2CC663D2A0C8BC9C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C484E647C9314814D4BEFFDDF27A9AEC /* View+Tap.swift in Sources */,
+				D632C42B53765B5EF34D66EEDCDECC03 /* UIView-TapListnerCallback-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1683E191FD5DFFB6EE890792FC0DA935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIView-TapListnerCallback";
+			target = 8814220826F04A372BF69D9A0FB13DD0 /* UIView-TapListnerCallback */;
+			targetProxy = 8DBA5058D34EE130DB660D51513DC879 /* PBXContainerItemProxy */;
+		};
+		656722C2F0CD38F721C6426358B4E50C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIView-TapListnerCallback_Example";
+			target = AC2DAA40C85330351CEDD753D9A46E98 /* Pods-UIView-TapListnerCallback_Example */;
+			targetProxy = DCDC5D39CFE828521E7DB754E5020086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3259C5C556547C33552CA496D253CF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B4BEC11198766CC81A15DE40325A0D /* Pods-UIView-TapListnerCallback_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIView-TapListnerCallback_Example/Pods-UIView-TapListnerCallback_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIView-TapListnerCallback_Example/Pods-UIView-TapListnerCallback_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48149D60772744C5B8DFE9E93CA672BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DA2D1D67658EC7C5E552429375727F /* UIView-TapListnerCallback.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIView-TapListnerCallback/UIView-TapListnerCallback-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIView-TapListnerCallback/UIView-TapListnerCallback-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIView-TapListnerCallback/UIView-TapListnerCallback.modulemap";
+				PRODUCT_MODULE_NAME = UIView_TapListnerCallback;
+				PRODUCT_NAME = UIView_TapListnerCallback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AC5203B3B204DBEE469A323AAC8FE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF618244D6A12CF862F392905CE713A6 /* Pods-UIView-TapListnerCallback_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIView-TapListnerCallback_Example/Pods-UIView-TapListnerCallback_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIView-TapListnerCallback_Example/Pods-UIView-TapListnerCallback_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D86ABFFBE12FAE5ACF6ACA76F1BDDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2856C7A1A94AC01DCA11F33D619778B /* Pods-UIView-TapListnerCallback_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIView-TapListnerCallback_Tests/Pods-UIView-TapListnerCallback_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIView-TapListnerCallback_Tests/Pods-UIView-TapListnerCallback_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ED0C0AE0348E34227D84F1A1B4C6E6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBEEEE3D1425A9657D1C666F7FEBED7 /* UIView-TapListnerCallback.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIView-TapListnerCallback/UIView-TapListnerCallback-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIView-TapListnerCallback/UIView-TapListnerCallback-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIView-TapListnerCallback/UIView-TapListnerCallback.modulemap";
+				PRODUCT_MODULE_NAME = UIView_TapListnerCallback;
+				PRODUCT_NAME = UIView_TapListnerCallback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCC99F35618D23CAA0F1BC379D0E3D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA7F40F629E3B30EB9F0E1EDBF642FE /* Pods-UIView-TapListnerCallback_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIView-TapListnerCallback_Tests/Pods-UIView-TapListnerCallback_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIView-TapListnerCallback_Tests/Pods-UIView-TapListnerCallback_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1F739C06E130974A5468DD757A9C00 /* Build configuration list for PBXNativeTarget "UIView-TapListnerCallback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0C0AE0348E34227D84F1A1B4C6E6DD /* Debug */,
+				48149D60772744C5B8DFE9E93CA672BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFAD048E0F10686D1E47C412B58184C /* Build configuration list for PBXNativeTarget "Pods-UIView-TapListnerCallback_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC5203B3B204DBEE469A323AAC8FE9D /* Debug */,
+				3259C5C556547C33552CA496D253CF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32A97306C32033963B1CAC9B01AF624 /* Build configuration list for PBXNativeTarget "Pods-UIView-TapListnerCallback_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC99F35618D23CAA0F1BC379D0E3D7D /* Debug */,
+				5D86ABFFBE12FAE5ACF6ACA76F1BDDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
