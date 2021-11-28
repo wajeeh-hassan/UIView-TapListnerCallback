@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UIView-TapListnerCallback_Example' do
+  pod 'UIView-TapListnerCallback', :path => '../'
+
+  target 'UIView-TapListnerCallback_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
