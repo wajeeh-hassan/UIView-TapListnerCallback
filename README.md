@@ -27,7 +27,8 @@ import UIView_TapListnerCallback
 ## Make any UIView Actionable
 ```swift
 
-// A simple and easy method to add gesturerecognizer to any view (UIView,UIImageView,UILable...)  
+// A simple and easy method to add gesturerecognizer to any view (UIView,UIImageView,UILable...).
+// Just call TapLisner method from any view
   
         mLable.TapLisner{
             print("lable clicked")
